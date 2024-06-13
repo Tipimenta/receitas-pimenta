@@ -21,13 +21,13 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="mailto:Tiagopimenta.ata@gmail.com">
+            <a href="mailto:tiagopimenta.ata@gmail.com">
               <img
                 src={email}
                 className="social"
                 alt="logo-gitHub"
                 target="_black"
-              /> Tiagopimenta.ata@gmail.com
+              /> tiagopimenta.ata@gmail.com
             </a>
           </li>
         </ul>

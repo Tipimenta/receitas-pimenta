@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="Capa" title="#Receitas Pimenta" src="./src/assets/img/cover.png/>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Receitas Pimenta
 
-In the project directory, you can run:
+ ## Objetivo 🎯
+ Desafio final da campinho digital, turma de front-end 2024 com objetivo de consumir uma API em React e fazer uso de Hooks.
 
-### `npm start`
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades ✏️
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Pesquisa de receita por nome
+- Cadastro de usuario
+- Login para acesso a receitas favoritas
+- Adicionar e remover dos favoritos
+- Cards para visualizar receitas por categorias
+- Cards para visualizar receitas por recomendads
+- Modal para visualizar receita desejada
+- Feito versão mobile
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar o Projeto 📌
 
-### `npm run build`
+Clone este repositório em sua máquina local.
+Instale as dependências usando npm install.
+Execute o projeto com npm start.
+Acesse http://localhost:3000 em seu navegador para visualizar o projeto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias Utilizadas 👨‍💻
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### React.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Gerenciamento de Estado
+Para gerenciar o estado da aplicação e lidar com operações assíncronas, utilizamos os hooks useState e useEffect.
 
-### `npm run eject`
+- useState: Para gerenciar o estado local dos componentes.
+- useEffect: Para lidar com efeitos colaterais, como chamadas de API e outras operações assíncronas.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Comunicação com API
+- fetch: Implementei a comunicação com APIs externas para buscar e enviar dados utilizando fetch para realizar as requisiçoes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Roteamento
+Para a navegação entre páginas, usamos a biblioteca react-router. Implementamos rotas e navegação de forma eficiente com os seguintes elementos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- useAuth: Hook personalizado para gerenciar autenticação.
+useNavigate: Hook para navegação programática.
+- Router: Componente para definir e gerenciar as rotas da aplicação.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Autenticação
+useAuth - Implementamos a autenticação de usuários utilizando um hook personalizado, que gerencia o estado de autenticação e protege rotas sensíveis.
 
-## Learn More
+#### Funcionalidades Adicionais
+Debounce: Implementação de debounce no componente de busca para melhorar a performance e evitar requisições excessivas.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### HTML5
 
-### Code Splitting
+#### Estrutura Semântica
+Adotamos tags semânticas do HTML5 para garantir uma estrutura de documento clara e acessível, melhorando a experiência de navegação para todos os usuários, incluindo aqueles que utilizam tecnologias assistivas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Formulários e Entradas
+Desenvolvemos formulários interativos e elementos de entrada para facilitar a busca de personagens, assegurando que sejam acessíveis e usáveis por todos os usuários.
 
-### Analyzing the Bundle Size
+#### Multimídia
+Integramos imagens e outros elementos multimídia de forma eficiente, garantindo que todos os conteúdos sejam acessíveis, com o uso de descrições alternativas e legendas quando necessário.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### CSS3
+#### Estilização Responsiva
+Utilizamos media queries para garantir que a aplicação seja responsiva e adaptável a diferentes dispositivos e tamanhos de tela.
 
-### Making a Progressive Web App
+#### Animações e Transições
+Implementamos animações suaves e transições para melhorar a experiência do usuário.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Flexbox
+Utilizamos Flexbox para criar layouts complexos e fluidos com facilidade.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Melhorias
+- Refatorar 
+- Incluir mais acessibilidade por meio de "Text Resizer"
+- Incluir botão de imprimir receitas
+- Incluir botão de compartilar receitas
+- Incluir sessão para adicionar novas receitas
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contribuições 🤝
 
-### `npm run build` fails to minify
+Contribuições são sempre bem-vindas! 😄
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+

@@ -38,15 +38,7 @@
   margin-top: 5px;
 }
 
-.preparo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-}
-
-.conteudo {
+.preparo, .conteudo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,6 +90,10 @@
 @media screen and (max-width: 900px) {
   .receita{
       flex-direction: column;
+  }
+
+  .preparo, .conteudo{
+    width: 90%;
   }
 }
 

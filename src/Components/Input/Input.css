@@ -6,3 +6,10 @@
     border: solid 1px #303030;
     padding: 5px 5px;
 }
+
+@media screen and (max-width: 850px) {
+   
+    .search-input {
+    font-size: 14px;
+}
+}
