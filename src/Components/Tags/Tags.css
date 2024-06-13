@@ -1,0 +1,28 @@
+.tags{
+    width: 160px;
+    background-color: #28842E;
+    height: 36px;
+    color: #FFF8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1000px) {
+    .tags{
+        width: 130px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .tags{
+        width: 110px;
+        height: 28px;
+    }
+}

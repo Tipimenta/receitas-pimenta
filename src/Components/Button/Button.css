@@ -1,0 +1,9 @@
+.button-primary{
+    padding: 4px 20px;
+    background-color: #28842E;
+    color: #FFF8F8;
+    border-radius: 2px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}

@@ -1,0 +1,103 @@
+.cadastro{
+    max-width: 1200px;
+    width: 100%;
+    height: calc(100vh - 180px);
+    padding: 0 20px;
+    margin: 0 auto;
+    background-color: #FFF8F8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.cadastro img{
+width: 50%;
+}
+
+.conteudo-cadastro{
+background-color: #8a3c3c;
+max-width: 500px;
+height: 500px;
+color: #FFF8F8;
+width: 100%;
+
+}
+
+.formulario{
+display: flex;
+justify-content: start;
+align-items: center;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+form{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+width: 100%;
+height: 80%;
+}
+
+form div{
+max-width: 340px;
+width: 100%;
+}
+
+input{
+width: 100%;
+padding: 7px;
+margin-top: 5px;
+font-size: 18px;
+}
+
+.rodape-formulario{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.rodape-formulario p {
+font-size: 10px;
+font-weight: 400;
+}
+
+.rodape-formulario p a{
+color: #28842E;
+text-decoration: underline;
+font-size: 16px;
+font-weight: 600;
+letter-spacing: 1px;
+}
+
+button{
+padding: 4px 20px;
+border: none;
+background-color: #28842E;
+color: #FFF8F8;
+border-radius: 2px;
+font-family: "Barlow Semi Condensed", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+@media screen and (max-width: 750px) {
+    .cadastro img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+  form{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+    .rodape-formulario{
+        flex-direction: column;
+    }
+}

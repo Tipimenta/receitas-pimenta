@@ -1,0 +1,44 @@
+.category-page {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px 20px;
+  margin: 0px auto;
+  background-color:#FFF8F8;
+  gap: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+
+.category-page .card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    background-color: var(--background-color);
+    height: 250px;
+  }
+.category-page .image{
+    width: 100px;
+  }
+  
+.recipes-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .recipes-list li {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .recipes-list img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+  }

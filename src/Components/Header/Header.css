@@ -1,0 +1,166 @@
+header{
+    background-color: var(--background-color);
+    width: 100%;
+    max-width: 1200px;
+    height: 80px;
+    font-family: "Basic", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0  auto;
+}
+
+header .container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+header .container img{
+    width: 130px;
+}
+
+header .container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 120px;
+}
+
+header .container nav ul{
+    margin-left: 30px;
+    display: flex;
+    width: 100%;
+}
+
+header .container nav ul li{
+    margin-right: 35px;
+}
+
+header .container nav ul li:last-child{
+    margin-right: 0;
+}
+
+header .container nav ul li .link{
+    color: #303030;
+    font-size: 18px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+header .container nav ul li .link:hover{
+    color: #28842E; 
+}
+
+header .container nav ul li .link:active {
+    color: #28842E!;
+}
+
+.link:hover {
+    color: #28842E; /* Cor ao passar o mouse */
+}
+
+.link.active {
+    color: #28842E; /* Cor quando ativo */
+}
+
+
+.linkButton{
+    padding: 4px 20px;
+    background-color: #28842E;
+    color: #FFF8F8;
+    border-radius: 2px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.mobile-menu-hamburguer{
+    margin-left: 20px;
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+   
+    header .container nav {
+        margin-left: 80px;
+}
+}
+
+@media screen and (max-width: 850px) {
+   
+    header .container nav ul li .link {
+    font-size: 14px;
+}
+
+header .container nav {
+    margin-left: 40px;
+}
+
+    .linkButton{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    header .container nav ul {
+        margin-left: 5px;
+}
+   
+    header .container nav ul li{
+        margin-right: 15px;
+    }
+
+    header .container img{
+        width: 100px;
+    }
+
+    header .container nav {
+        margin-left: 15px;
+}
+}
+
+@media screen and (max-width: 550px) {
+
+    header .container nav {
+        margin-left: 5px;
+}
+
+
+header .container nav {
+    margin-left: 10px;
+  }
+
+  header .container nav ul{
+    display: none;
+  }
+   
+    header .container nav ul li{
+        margin-right: 10px;
+    }
+
+    header .container img{
+        width: 80px;
+    }
+
+    header .container nav ul {
+        margin-left: 5px;
+}
+
+.mobile-menu-hamburguer{
+    display: block; 
+}
+header .container nav ul li .link {
+    font-size: 12px;
+}
+
+    .linkButton{
+        font-size: 12px;
+    }
+}
