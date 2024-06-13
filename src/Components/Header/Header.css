@@ -102,10 +102,6 @@ header .container nav ul li .link:active {
     header .container nav {
         margin-left: 40px;
     }
-
-    .linkButton {
-        font-size: 14px;
-    }
 }
 
 @media screen and (max-width: 700px) {
