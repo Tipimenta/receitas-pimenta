@@ -1,6 +1,5 @@
 <h1 align="center">
-    <img alt="Capa" title="#Receitas Pimenta" src="![cover](https://github.com/Tipimenta/receitas-pimenta/assets/104909118/7471ca9b-448c-41d8-9611-daa974318b1c)
-" />
+    <img alt="Capa" title="#Receitas Pimenta" src="https://github.com/Tipimenta/receitas-pimenta/assets/104909118/7471ca9b-448c-41d8-9611-daa974318b1c" />
 </h1>
 
 
