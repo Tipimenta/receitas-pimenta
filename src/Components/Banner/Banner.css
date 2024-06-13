@@ -1,8 +1,8 @@
-html{
+html {
     font-size: 62.5%;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@ html{
     margin: 0 auto;
 }
 
-.banner h2{
+.banner h2 {
     color: #FFF8F8;
     font-size: 96px;
     font-family: "Barlow Semi Condensed", sans-serif;
@@ -24,14 +24,14 @@ html{
     max-width: 438px;
 }
 
-.banner img{
+.banner img {
     width: 80%;
     max-width: 685px;
     margin-top: 60px;
     z-index: 10;
 }
 
-.tag{
+.tag {
     z-index: 99;
     position: absolute;
     bottom: 490px;
@@ -42,15 +42,15 @@ html{
 
 @media screen and (max-width: 1000px) {
 
-    .banner{
-        height: 300px;    
+    .banner {
+        height: 300px;
     }
 
-    .banner img{
-     width: 70%;
+    .banner img {
+        width: 70%;
     }
 
-    .banner h2{
+    .banner h2 {
         font-size: 76px;
     }
 
@@ -58,43 +58,43 @@ html{
 
 @media screen and (max-width: 850px) {
 
-    .banner{
-        height: 270px;    
+    .banner {
+        height: 270px;
     }
 
-    .banner h2{
+    .banner h2 {
         font-size: 66px;
     }
-  
+
 }
 
 @media screen and (max-width: 700px) {
-    .banner{
-        height: 230px;    
+    .banner {
+        height: 230px;
     }
 
-    .banner h2{
+    .banner h2 {
         font-size: 46px;
     }
-   
+
 }
 
 @media screen and (max-width: 550px) {
-    .banner{
-        height: 180px;    
+    .banner {
+        height: 180px;
     }
 
-    .banner h2{
+    .banner h2 {
         font-size: 32px;
     }
 }
 
 @media screen and (max-width: 470px) {
-    .banner{
-        height: 140px;    
+    .banner {
+        height: 140px;
     }
 
-    .banner img{
+    .banner img {
         width: 60%;
-       }
+    }
 }

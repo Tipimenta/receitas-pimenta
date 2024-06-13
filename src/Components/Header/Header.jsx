@@ -43,8 +43,8 @@ function Header({ onSearch }) {
     <header>
       <div className="container">
         <div className="logo">
-        <Link to="/">
-          <img src={logo} alt="logo" />
+          <Link to="/">
+            <img src={logo} alt="logo" />
           </Link>
         </div>
         <nav>
@@ -70,7 +70,7 @@ function Header({ onSearch }) {
             )}
           </ul>
           <button className="mobile-menu-hamburguer" onClick={toggleMobileMenu}>
-            &#9776; 
+            &#9776;
           </button>
         </nav>
         {showModal && (
@@ -88,7 +88,7 @@ function Header({ onSearch }) {
             user={user}
             handleLogout={handleLogout}
             handleFavoritesClick={handleFavoritesClick}
-            onSearch={ onSearch }
+            onSearch={onSearch}
           />
         )}
       </div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Modal from '../../Components/Modal/Modal';
 import { useAuth } from '../../hooks/useAuth';
-import Footer from '../../Components/Footer/Footer'; 
+import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
 import ApiReceitasNome from "../../Components/ApiReceitas/ApiReceitasNome"; // Importando o componente ApiReceitasNome
 import "./CategoryPage.css";
@@ -99,7 +99,7 @@ const CategoryPage = () => {
   return (
     <>
       <Header onSearch={handleSearch} />
-      {searchTerm ? ( 
+      {searchTerm ? (
         <ApiReceitasNome searchTerm={searchTerm} />
       ) : (
         <div className="category-page">
@@ -139,9 +139,9 @@ const CategoryPage = () => {
               <div className="modal-content">
                 <p>Você precisa estar logado para adicionar aos favoritos. Deseja fazer login?</p>
                 <div className="buttons">
-                <button onClick={handleLoginRedirect}>Sim</button>
-                <button onClick={() => setShowLoginModal(false)}>Não</button>
-              </div>
+                  <button onClick={handleLoginRedirect}>Sim</button>
+                  <button onClick={() => setShowLoginModal(false)}>Não</button>
+                </div>
               </div>
             </div>
           )}

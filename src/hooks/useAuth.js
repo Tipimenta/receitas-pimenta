@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
     return savedUser ? JSON.parse(savedUser) : null;
   });
 
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (user) {
@@ -25,7 +25,7 @@ export const AuthProvider = ({ children }) => {
 
     if (foundUser) {
       setUser(foundUser);
-      navigate('/'); 
+      navigate('/');
     } else {
       alert('Dados incorretos. Por favor, tente novamente.');
     }
@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
 
   const logout = () => {
     setUser(null);
-    return navigate('/'); 
+    return navigate('/');
   };
 
   const register = (email, password) => {
@@ -43,7 +43,7 @@ export const AuthProvider = ({ children }) => {
     users.push(newUser);
     localStorage.setItem('users', JSON.stringify(users));
     setUser(newUser);
-    navigate('/'); 
+    navigate('/');
   };
 
   const toggleFavorite = (meal) => {

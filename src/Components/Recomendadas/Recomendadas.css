@@ -1,4 +1,4 @@
-.recomendadas{
+.recomendadas {
     max-width: 1200px;
     width: 100%;
     height: 700px;
@@ -7,7 +7,7 @@
     background-color: var(--background-color);
 }
 
-.conteudo-recomendadas{
+.conteudo-recomendadas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .recomendadas{
+    .recomendadas {
         height: fit-content;
     }
 }

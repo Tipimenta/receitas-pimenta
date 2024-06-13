@@ -1,11 +1,10 @@
-
-.apiReceitas{
+.apiReceitas {
     max-width: 1200px;
     width: 100%;
     height: calc(100% - 180px);
     padding: 20px 20px;
     margin: 0px auto;
-    background-color:#FFF8F8;
+    background-color: #FFF8F8;
     gap: 40px;
     display: flex;
     flex-wrap: wrap;

@@ -59,9 +59,9 @@ const Recomendadas = () => {
         <Modal onClose={handleCloseModal}>
           <h2>{selectedMeal.strMeal}</h2>
           <div className="receita">
-          
+
             <div className="conteudo">
-              
+
               <img src={selectedMeal.strMealThumb} alt={selectedMeal.strMeal} />
               <h3>Ingredients:</h3>
               <ul>
@@ -80,8 +80,8 @@ const Recomendadas = () => {
               </ul>
             </div>
             <div className="preparo">
-            <h3>Way of preparing</h3>
-            <p>{selectedMeal.strInstructions}</p>
+              <h3>Way of preparing</h3>
+              <p>{selectedMeal.strInstructions}</p>
             </div>
           </div>
         </Modal>

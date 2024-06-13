@@ -21,7 +21,7 @@ const ApiReceitasRecomendada = () => {
     };
 
     fetchData();
-  }, []); 
+  }, []);
 
   if (loading) {
     return <div className="apiReceitas">Carregando...</div>;

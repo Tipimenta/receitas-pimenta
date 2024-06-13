@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Capa" title="#Receitas Pimenta" src="./src/assets/img/cover.png/>
+    <img alt="Capa" title="#Receitas Pimenta" src="" />
 </h1>
 
 

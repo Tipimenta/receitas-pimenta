@@ -11,7 +11,7 @@ const ApiReceitasCategorias = () => {
         const response = await fetch(
           "https://www.themealdb.com/api/json/v1/1/categories.php"
         );
-        
+
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

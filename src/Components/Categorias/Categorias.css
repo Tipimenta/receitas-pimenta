@@ -1,4 +1,4 @@
-.categorias{
+.categorias {
     max-width: 1200px;
     width: 100%;
     height: 500px;
@@ -7,7 +7,7 @@
     background-color: #FFF8F8;
 }
 
-.conteudo-categorias{
+.conteudo-categorias {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .categorias{
+    .categorias {
         height: fit-content;
     }
 }

@@ -10,7 +10,7 @@ const ApiReceitasBuscaLetra = () => {
       if (letras) {
         try {
           const response = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${letras}`);
-          
+
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }

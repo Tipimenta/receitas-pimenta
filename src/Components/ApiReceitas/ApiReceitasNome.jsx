@@ -127,8 +127,8 @@ const ApiReceitasNome = ({ searchTerm }) => {
                 <h3>Modo de Preparo:</h3>
                 <p>{selectedRecipe.strInstructions}</p>
               </div>
-              </div>
-              </div>
+            </div>
+          </div>
         </Modal>
       )}
       {showLoginModal && (
@@ -137,8 +137,8 @@ const ApiReceitasNome = ({ searchTerm }) => {
             <button className="close-button" onClick={handleCloseModal}>&times;</button>
             <p>Você precisa estar logado para adicionar aos favoritos. Deseja fazer login?</p>
             <div className="buttons">
-            <button onClick={handleLoginRedirect}>Sim</button>
-            <button onClick={handleCloseModal}>Não</button>
+              <button onClick={handleLoginRedirect}>Sim</button>
+              <button onClick={handleCloseModal}>Não</button>
             </div>
           </div>
         </div>

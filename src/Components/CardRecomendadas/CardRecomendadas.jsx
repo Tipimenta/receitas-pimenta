@@ -6,8 +6,8 @@ import "./CardRecomendadas.css";
 function CardRecomendadas({ meal, onClick }) {
   const { user, toggleFavorite } = useAuth();
   const [isFavorite, setIsFavorite] = useState(false);
-  const [showModal, setShowModal] = useState(false); 
-  const navigate = useNavigate(); 
+  const [showModal, setShowModal] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (user) {
@@ -19,7 +19,7 @@ function CardRecomendadas({ meal, onClick }) {
     if (user) {
       toggleFavorite(meal);
     } else {
-      setShowModal(true);  
+      setShowModal(true);
     }
   }, [toggleFavorite, meal, user]);
 
@@ -28,7 +28,7 @@ function CardRecomendadas({ meal, onClick }) {
   };
 
   const handleLoginRedirect = () => {
-    navigate('/login'); 
+    navigate('/login');
   };
 
   return (
@@ -48,8 +48,8 @@ function CardRecomendadas({ meal, onClick }) {
           <div className="modal-content">
             <p>Você precisa estar logado para adicionar aos favoritos. Deseja fazer login?</p>
             <div className="buttons">
-            <button onClick={handleLoginRedirect}>Sim</button>
-            <button onClick={handleCloseModal}>Não</button>
+              <button onClick={handleLoginRedirect}>Sim</button>
+              <button onClick={handleCloseModal}>Não</button>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-.tags{
+.tags {
     width: 160px;
     background-color: #28842E;
     height: 36px;
@@ -14,14 +14,14 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .tags{
+    .tags {
         width: 130px;
         height: 32px;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .tags{
+    .tags {
         width: 110px;
         height: 28px;
     }

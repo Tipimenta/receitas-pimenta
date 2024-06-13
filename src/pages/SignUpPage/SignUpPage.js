@@ -30,53 +30,53 @@ const SignUpPage = () => {
 
   return (
     <>
-      
+
       <Header onSearch={handleSearch} />
       {searchTerm ? (
         <ApiReceitasNome searchTerm={searchTerm} />
       ) : (
         <>
-    <div className="cadastro">
-      <img src={logo} alt="logo" />
-      <div className="conteudo-cadastro">
-        <Tags legenda="Cadastro" />
-        <div className="formulario">
-          <form onSubmit={handleSignUp}>
-            <div>
-              <label htmlFor="email">Email:</label>
-              <input
-                type="email"
-                id="email"
-                placeholder="Digite seu email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
+          <div className="cadastro">
+            <img src={logo} alt="logo" />
+            <div className="conteudo-cadastro">
+              <Tags legenda="Cadastro" />
+              <div className="formulario">
+                <form onSubmit={handleSignUp}>
+                  <div>
+                    <label htmlFor="email">Email:</label>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Digite seu email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="password">Senha:</label>
+                    <input
+                      type="password"
+                      id="password"
+                      placeholder="Digite sua senha"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      required
+                    />
+                  </div>
+                  <div className="rodape-formulario">
+                    <button type="submit">Cadastrar</button>
+                    <p>
+                      Já tem uma conta? <Link to="/login">Entrar</Link>
+                    </p>
+                  </div>
+                </form>
+              </div>
             </div>
-            <div>
-              <label htmlFor="password">Senha:</label>
-              <input
-                type="password"
-                id="password"
-                placeholder="Digite sua senha"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-              />
-            </div>
-            <div className="rodape-formulario">
-              <button type="submit">Cadastrar</button>
-              <p>
-                Já tem uma conta? <Link to="/login">Entrar</Link>
-              </p>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    </>
-  )}
-    <Footer />
+          </div>
+        </>
+      )}
+      <Footer />
     </>
   );
 };

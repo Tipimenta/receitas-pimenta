@@ -1,4 +1,4 @@
-header{
+header {
     background-color: var(--background-color);
     width: 100%;
     max-width: 1200px;
@@ -6,10 +6,10 @@ header{
     font-family: "Basic", sans-serif;
     display: flex;
     justify-content: space-between;
-    margin: 0  auto;
+    margin: 0 auto;
 }
 
-header .container{
+header .container {
     display: flex;
     width: 100%;
     height: 100%;
@@ -18,11 +18,11 @@ header .container{
     justify-content: space-between;
 }
 
-header .container img{
+header .container img {
     width: 130px;
 }
 
-header .container nav{
+header .container nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,22 +30,22 @@ header .container nav{
     margin-left: 120px;
 }
 
-header .container nav ul{
+header .container nav ul {
     margin-left: 30px;
     display: flex;
     width: 100%;
     align-items: center;
 }
 
-header .container nav ul li{
+header .container nav ul li {
     margin-right: 35px;
 }
 
-header .container nav ul li:last-child{
+header .container nav ul li:last-child {
     margin-right: 0;
 }
 
-header .container nav ul li .link{
+header .container nav ul li .link {
     color: #303030;
     font-size: 18px;
     font-family: "Barlow Semi Condensed", sans-serif;
@@ -53,24 +53,24 @@ header .container nav ul li .link{
     font-style: italic;
 }
 
-header .container nav ul li .link:hover{
-    color: #28842E; 
+header .container nav ul li .link:hover {
+    color: #28842E;
 }
 
 header .container nav ul li .link:active {
-    color: #28842E!;
+    color: #28842E !;
 }
 
 .link:hover {
-    color: #28842E; /* Cor ao passar o mouse */
+    color: #28842E;
 }
 
 .link.active {
-    color: #28842E; /* Cor quando ativo */
+    color: #28842E;
 }
 
 
-.linkButton{
+.linkButton {
     padding: 4px 20px;
     background-color: #28842E;
     color: #FFF8F8;
@@ -81,29 +81,29 @@ header .container nav ul li .link:active {
 }
 
 
-.mobile-menu-hamburguer{
+.mobile-menu-hamburguer {
     margin-left: 20px;
     display: none;
 }
 
 @media screen and (max-width: 1000px) {
-   
+
     header .container nav {
         margin-left: 80px;
-}
+    }
 }
 
 @media screen and (max-width: 850px) {
-   
+
     header .container nav ul li .link {
-    font-size: 14px;
-}
+        font-size: 14px;
+    }
 
-header .container nav {
-    margin-left: 40px;
-}
+    header .container nav {
+        margin-left: 40px;
+    }
 
-    .linkButton{
+    .linkButton {
         font-size: 14px;
     }
 }
@@ -112,56 +112,58 @@ header .container nav {
 
     header .container nav ul {
         margin-left: 5px;
-}
-   
-    header .container nav ul li{
+    }
+
+    header .container nav ul li {
         margin-right: 15px;
     }
 
-    header .container img{
+    header .container img {
         width: 100px;
     }
 
     header .container nav {
         margin-left: 15px;
-}
+    }
 }
 
 @media screen and (max-width: 550px) {
 
     header .container nav {
         margin-left: 5px;
-}
+        align-items: baseline
+    }
 
 
-header .container nav {
-    margin-left: 10px;
-  }
+    header .container nav {
+        margin-left: 10px;
+    }
 
-  header .container nav ul{
-    display: none;
-  }
-   
-    header .container nav ul li{
+    header .container nav ul {
+        display: none;
+    }
+
+    header .container nav ul li {
         margin-right: 10px;
     }
 
-    header .container img{
+    header .container img {
         width: 80px;
     }
 
     header .container nav ul {
         margin-left: 5px;
-}
+    }
 
-.mobile-menu-hamburguer{
-    display: block; 
-}
-header .container nav ul li .link {
-    font-size: 12px;
-}
+    .mobile-menu-hamburguer {
+        display: block;
+    }
 
-    .linkButton{
+    header .container nav ul li .link {
+        font-size: 12px;
+    }
+
+    .linkButton {
         font-size: 12px;
     }
 }

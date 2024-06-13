@@ -11,7 +11,7 @@ const RecipeItem = ({ recipe, onClick }) => {
       <h2>{recipe.strMeal}</h2>
       <img src={recipe.strMealThumb} alt={recipe.strMeal} />
       <button onClick={(e) => {
-        e.stopPropagation(); 
+        e.stopPropagation();
         toggleFavorite(recipe);
       }}>
         {isFavorite ? 'Remover' : 'Favoritar'}

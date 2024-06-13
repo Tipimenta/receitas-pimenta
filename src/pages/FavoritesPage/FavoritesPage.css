@@ -1,4 +1,4 @@
-.favoritas{
+.favoritas {
     max-width: 1200px;
     width: 100%;
     height: max-content;
@@ -8,18 +8,17 @@
 
 }
 
-.favoritas .sem-favoritos{
+.favoritas .sem-favoritos {
     color: white;
     font-size: 24px;
     text-align: center;
 }
 
-.conteudo-favoritas{
+.conteudo-favoritas {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 10px;
     margin: 0 auto;
- }
-
+}
