@@ -82,7 +82,7 @@ Utilizamos Flexbox para criar layouts complexos e fluidos com facilidade.
 - Refatorar 
 - Incluir mais acessibilidade por meio de "Text Resizer"
 - Incluir botão de imprimir receitas
-- Incluir botão de compartilar receitas
+- Incluir botão de compartilhar receitas
 - Incluir sessão para adicionar novas receitas
 
 
